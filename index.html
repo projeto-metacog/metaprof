@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MetaProf - Metacognição Docente</title>
+
+  <link rel="icon" href="assets/professor.png" type="image/png" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans min-h-screen flex flex-col">
+
+  <!-- Cabeçalho -->
+  <header style="background-color: #1c6e8c;" class="text-white p-3 shadow-lg">
+  <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-extrabold flex items-center gap-3">
+      <img src="assets/professor.png" alt="Ícone de livros" class="w-8 h-8" />
+      MetaProf
+    </h1>
+    <nav>
+      <ul class="flex space-x-8 text-lg font-semibold">
+        <li>
+          <a href="sobre.html" class="hover:underline">Sobre</a>
+        </li>
+        <li>
+          <a href="#" class="hover:underline">Documentação</a>
+        </li>
+        <li>
+          <a href="mait.html" class="hover:underline">Questionário MAIT</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Conteúdo principal -->
+  <main class="container mx-auto px-6 py-16 flex-grow">
+    <div class="max-w-4xl mx-auto bg-white p-10 rounded-2xl shadow-md" style="border: 1px solid #1c6e8c;">
+
+      <h2 class="text-3xl font-bold mb-6 text-center" style="color: #1c6e8c;">
+        Avaliando a Metacognição na Prática Docente
+      </h2>
+
+      <p class="text-lg text-gray-800 text-justify mb-8 leading-relaxed">
+        O <strong>MetaProf</strong> é um projeto voltado para a compreensão e promoção da metacognição no contexto educacional, com foco nos professores. Por meio do <strong>Questionário MAIT – Inventário de Consciência Metacognitiva do Professor (Versão Adaptada)</strong>, investigamos o quanto os docentes utilizam estratégias metacognitivas no <strong>planejamento</strong>, <strong>monitoramento</strong> e <strong>avaliação</strong> de sua prática pedagógica.
+      </p>
+
+      <div class="flex justify-center gap-6 mt-10">
+        <a href="sobre.html" 
+           class="text-white px-6 py-3 rounded-full shadow transition duration-300" 
+           style="background-color: #1c6e8c;"
+           onmouseover="this.style.backgroundColor='#175a6a'"
+           onmouseout="this.style.backgroundColor='#1c6e8c'">
+          💻 Sobre o Projeto
+        </a>
+        <a href="documentacao.html" 
+           class="text-white px-6 py-3 rounded-full shadow transition duration-300" 
+           style="background-color: #1c6e8c;"
+           onmouseover="this.style.backgroundColor='#175a6a'"
+           onmouseout="this.style.backgroundColor='#1c6e8c'">
+          📋 Documentação
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer style="background-color: #1c6e8c;" class="text-blue-100 p-6 text-center text-sm">
+    <p class="text-white">&copy; 2025 MetaProf. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
